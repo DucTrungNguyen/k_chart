@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _volHidden = false;
   SecondaryState _secondaryState = SecondaryState.MACD;
   bool isLine = true;
-  bool isChinese = true;
+  bool isChinese = false;
   List<DepthEntity> _bids, _asks;
 
   @override
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 secondaryState: _secondaryState,
                 fixedLength: 2,
                 timeFormat: TimeFormat.YEAR_MONTH_DAY,
-                isChinese: isChinese,
+                isChinese: false,
               ),
             ),
             if (showLoading)

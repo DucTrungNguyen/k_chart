@@ -80,7 +80,7 @@ class _KChartWidgetState extends State<KChartWidget>
     return mScaleX;
   }
 
-  double _lastScale = 1.0;
+  double _lastScale = 2.0;
   bool isScale = false, isDrag = false, isLongPress = false;
 
   @override
